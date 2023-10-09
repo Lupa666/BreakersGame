@@ -125,7 +125,7 @@ size = Vector2(20, 10)
 [node name="Player" type="CharacterBody2D"]
 script = ExtResource("1_80dfg")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+[node name="PlayerSprite2D" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
 scale = Vector2(3, 3)
 sprite_frames = SubResource("SpriteFrames_5lm4e")
