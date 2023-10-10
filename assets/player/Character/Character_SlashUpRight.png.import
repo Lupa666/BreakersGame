@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://5kympcou7mkh"
-path="res://.godot/imported/player-sprite-sheet.png-de2c6a9bb5e4201bc01b88663e0b3738.ctex"
+uid="uid://d0su6pggw2l8t"
+path="res://.godot/imported/Character_SlashUpRight.png-583e384066cd6cd58c31de3a23b59860.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/player/player-sprite-sheet.png"
-dest_files=["res://.godot/imported/player-sprite-sheet.png-de2c6a9bb5e4201bc01b88663e0b3738.ctex"]
+source_file="res://assets/player/Character/Character_SlashUpRight.png"
+dest_files=["res://.godot/imported/Character_SlashUpRight.png-583e384066cd6cd58c31de3a23b59860.ctex"]
 
 [params]
 
@@ -21,11 +21,11 @@ compress/lossy_quality=0.7
 compress/hdr_compression=1
 compress/normal_map=0
 compress/channel_pack=0
-mipmaps/generate=true
+mipmaps/generate=false
 mipmaps/limit=-1
-roughness/mode=1
+roughness/mode=0
 roughness/src_normal=""
-process/fix_alpha_border=true
+process/fix_alpha_border=false
 process/premult_alpha=false
 process/normal_map_invert_y=false
 process/hdr_as_srgb=false

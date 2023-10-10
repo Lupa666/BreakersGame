@@ -1,9 +1,12 @@
-[gd_scene load_steps=2 format=3 uid="uid://de6pju81ih3fw"]
+[gd_scene load_steps=3 format=3 uid="uid://de6pju81ih3fw"]
 
+[ext_resource type="PackedScene" uid="uid://doldgdom6g0bf" path="res://scenes/level.tscn" id="1_i7mke"]
 [ext_resource type="PackedScene" uid="uid://bvgoosfrn4u5t" path="res://scenes/player_scene.tscn" id="1_v74ij"]
 
 [node name="MainScene" type="Node"]
 
+[node name="level" parent="." instance=ExtResource("1_i7mke")]
+
 [node name="Player" parent="." instance=ExtResource("1_v74ij")]
-motion_mode = 1
+position = Vector2(524, 282)
 platform_on_leave = 2
