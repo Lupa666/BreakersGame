@@ -10,7 +10,6 @@ texture = ExtResource("1_vdw7g")
 
 [node name="Rooftop_1" type="Sprite2D" parent="."]
 position = Vector2(960, 540)
-scale = Vector2(1, 1)
 texture = ExtResource("1_vdw7g")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
