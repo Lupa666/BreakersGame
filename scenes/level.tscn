@@ -1,3 +1,30 @@
-[gd_scene format=3 uid="uid://doldgdom6g0bf"]
+[gd_scene load_steps=2 format=3 uid="uid://doldgdom6g0bf"]
+
+[ext_resource type="Texture2D" uid="uid://c7piffwyfiwuv" path="res://assets/tilesets/rooftop.png" id="1_vdw7g"]
 
 [node name="level" type="Node2D"]
+
+[node name="Rooftop_2" type="Sprite2D" parent="."]
+position = Vector2(2880, 540)
+texture = ExtResource("1_vdw7g")
+
+[node name="Rooftop_1" type="Sprite2D" parent="."]
+position = Vector2(960, 540)
+scale = Vector2(1, 1)
+texture = ExtResource("1_vdw7g")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="top" type="CollisionPolygon2D" parent="StaticBody2D"]
+polygon = PackedVector2Array(-128, 400, 3968, 400, 3968, 0, -128, 0)
+
+[node name="bottom" type="CollisionPolygon2D" parent="StaticBody2D"]
+position = Vector2(0, 960)
+polygon = PackedVector2Array(-128, 400, 3968, 400, 3968, 0, -128, 0)
+
+[node name="left" type="CollisionPolygon2D" parent="StaticBody2D"]
+polygon = PackedVector2Array(-128, 400, 0, 400, 0, 960, -128, 960)
+
+[node name="left2" type="CollisionPolygon2D" parent="StaticBody2D"]
+position = Vector2(3968, 0)
+polygon = PackedVector2Array(-128, 400, 0, 400, 0, 960, -128, 960)

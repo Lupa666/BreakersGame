@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cshblsm71bao6"
-path="res://.godot/imported/water6.png-612fb46beee02b36dd1d985d7a92f931.ctex"
+uid="uid://c7piffwyfiwuv"
+path="res://.godot/imported/rooftop.png-5cc9d4a49260e3411391ceb30a9b33a1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/tilesets/test-level/water6.png"
-dest_files=["res://.godot/imported/water6.png-612fb46beee02b36dd1d985d7a92f931.ctex"]
+source_file="res://assets/tilesets/rooftop.png"
+dest_files=["res://.godot/imported/rooftop.png-5cc9d4a49260e3411391ceb30a9b33a1.ctex"]
 
 [params]
 

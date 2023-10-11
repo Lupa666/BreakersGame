@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-@export var MAX_SPEED: float = 600.0
+@export var MAX_SPEED: float = 400.0
 @export var ACCELERATION: float = 6000.0
 @export var DECELERATION: float = 6000.0
 
